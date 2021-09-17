@@ -1,0 +1,396 @@
+/* screen - searchpage */
+
+.searchpage {
+  background-color: transparent;
+  height: 2160px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.searchpage .navbar-z8OOTC {
+  background-color: transparent;
+  height: 122px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.searchpage .logo-section-29QtPx {
+  background-color: transparent;
+  height: 100%;
+  left: 128px;
+  position: absolute;
+  top: 0px;
+  width: 398px;
+}
+
+.searchpage .logo-text-fqo9WD {
+  background-color: transparent;
+  bottom: calc(41.94% - 25px);
+  color: #5da1e1;
+  cursor: pointer;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: 60px;
+  left: 56px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 280px;
+}
+
+.searchpage .menu-btn-section-29QtPx {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 1005px;
+}
+
+.searchpage .home-btn-1zz5r7 {
+  background-color: transparent;
+  bottom: calc(40.32% - 24px);
+  cursor: pointer;
+  height: 60px;
+  left: 45px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 135px;
+}
+
+.searchpage .home-btn-1zz5r7:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .about-btn-1zz5r7 {
+  background-color: transparent;
+  bottom: calc(40.32% - 24px);
+  cursor: pointer;
+  height: 60px;
+  left: calc(27.16% - 37px);
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.searchpage .about-btn-1zz5r7:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .services-btn-1zz5r7 {
+  background-color: transparent;
+  bottom: calc(40.32% - 24px);
+  cursor: pointer;
+  height: 60px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  pointer-events: auto;
+  position: absolute;
+  right: calc(47.35% - 92px);
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.searchpage .services-btn-1zz5r7:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .get-started-btn-1zz5r7 {
+  background-color: transparent;
+  bottom: calc(49.09% - 33px);
+  height: 67px;
+  pointer-events: auto;
+  position: absolute;
+  right: 30px;
+  transition: all 0.2s ease;
+  width: 298px;
+}
+
+.searchpage .get-started-btn-1zz5r7:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .get-started-bg-hF6GrT {
+  background-color: #3fa3f6;
+  border-radius: 10px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.searchpage .lbl-get-started-hF6GrT {
+  background-color: transparent;
+  color: #fcfcfc;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 18px);
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  right: calc(48.39% - 99px);
+  text-align: left;
+  top: 14px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.searchpage .service-section-z8OOTC {
+  background-color: transparent;
+  height: 571px;
+  left: 0px;
+  position: absolute;
+  top: 200px;
+  width: 1920px;
+}
+
+.searchpage .lbl-title-section3-pDKxBP {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: 96px;
+  left: 264px;
+  letter-spacing: 0.00px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: 67px;
+  white-space: nowrap;
+  width: calc(100.00% - 526px);
+}
+
+.searchpage .doctor-section1-pDKxBP {
+  background-color: transparent;
+  bottom: calc(30.03% - 77px);
+  height: 258px;
+  left: 225px;
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 212px;
+}
+
+.searchpage .doctor-section1-pDKxBP:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .search-box-NWutuU {
+  background-color: transparent;
+  height: 136px;
+  left: calc(50.00% - 68px);
+  position: absolute;
+  top: 0px;
+  width: 136px;
+}
+
+.searchpage .search-bg-xjF2fy {
+  background-color: var(--link-water);
+  border-radius: 68px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.searchpage .search-icon-xjF2fy {
+  background-color: transparent;
+  height: calc(100.00% - 36px);
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: calc(100.00% - 36px);
+}
+
+.searchpage .title-search-doctor-NWutuU {
+  background-color: transparent;
+  bottom: calc(22.90% - 10px);
+  height: 44px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.searchpage .desc-seacrh-doctor-NWutuU {
+  background-color: transparent;
+  bottom: -4px;
+  height: 30px;
+  left: 4px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% - 8px);
+}
+
+.searchpage .doctor-section2-pDKxBP {
+  background-color: transparent;
+  bottom: calc(30.03% - 77px);
+  height: 258px;
+  left: calc(50.00% - 106px);
+  pointer-events: auto;
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 212px;
+}
+
+.searchpage .doctor-section2-pDKxBP:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .appointment-box-OrQExq {
+  background-color: transparent;
+  height: 136px;
+  left: calc(50.00% - 68px);
+  position: absolute;
+  top: 0px;
+  width: 136px;
+}
+
+.searchpage .appointment-bg-xKbZ6m {
+  background-color: var(--link-water);
+  border-radius: 68px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.searchpage .appointment-icon-xKbZ6m {
+  background-color: transparent;
+  height: calc(100.00% - 36px);
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: calc(100.00% - 36px);
+}
+
+.searchpage .title-appointment-OrQExq {
+  background-color: transparent;
+  bottom: calc(22.90% - 10px);
+  height: 44px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.searchpage .desc-appointment-OrQExq {
+  background-color: transparent;
+  bottom: -4px;
+  height: 30px;
+  left: 4px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% - 8px);
+}
+
+.searchpage .doctor-section3-pDKxBP {
+  background-color: transparent;
+  bottom: calc(30.03% - 77px);
+  height: 258px;
+  pointer-events: auto;
+  position: absolute;
+  right: 225px;
+  transition: all 0.2s ease;
+  width: 212px;
+}
+
+.searchpage .doctor-section3-pDKxBP:hover {
+  transform: scale(1.1);
+}
+
+.searchpage .consult-box-xrUEib {
+  background-color: transparent;
+  height: 136px;
+  left: calc(50.00% - 68px);
+  position: absolute;
+  top: 0px;
+  width: 136px;
+}
+
+.searchpage .consult-bg-Cmjse4 {
+  background-color: var(--link-water);
+  border-radius: 68px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.searchpage .consulticon-Cmjse4 {
+  background-color: transparent;
+  height: calc(100.00% - 36px);
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: calc(100.00% - 36px);
+}
+
+.searchpage .title-consult-xrUEib {
+  background-color: transparent;
+  bottom: calc(22.90% - 10px);
+  height: 44px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.searchpage .desc-consult-xrUEib {
+  background-color: transparent;
+  bottom: -4px;
+  height: 30px;
+  left: 4px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: calc(100.00% - 8px);
+}

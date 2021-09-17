@@ -1,0 +1,36 @@
+:root { 
+  --black: #000000;
+  --link-water: #dae8f1;
+  --masala: #3c3e3c;
+ 
+  --font-size-m: 80px;
+  --font-size-s: 50px;
+  --font-size-xs: 40px;
+  --font-size-xxs: 36px;
+  --font-size-xxxs: 24px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.roboto-bold-masala-50px {
+  color: var(--masala);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
