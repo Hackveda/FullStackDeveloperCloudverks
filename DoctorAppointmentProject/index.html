@@ -51,6 +51,7 @@
               <div class="input-find-doctor-GBfxOj">
                 <div class="input1-bg-gYxxxt"></div>
                 <input
+                  id="doctor_type"
                   class="lbl-input-gYxxxt roboto-bold-oslo-gray-25px"
                   name="lblinput1"
                   placeholder="Find your doctor"
@@ -59,6 +60,7 @@
               <div class="select-area-GBfxOj">
                 <div class="input2-bg-1mE48x"></div>
                 <input
+                  id="doctor_area"
                   class="lbl-select-area-1mE48x roboto-bold-oslo-gray-25px"
                   name="lblselectarea1"
                   placeholder="Select Area"
@@ -66,12 +68,15 @@
               </div>
               <div class="search-btn-GBfxOj smart-layers-pointers">
                 <div class="btn1-bg-UIyfE5"></div>
-                <img class="search-image-UIyfE5" src="img/searchimage@1x.png" />
+                <img id="search_btn" class="search-image-UIyfE5" src="img/searchimage@1x.png" />
               </div>
             </div>
           </div>
         </div>
-        <div class="service-section-IO3Fu5">
+          
+        
+          
+        <div id="searchSection" class="service-section-IO3Fu5">
           <div class="lbl-title-section3-WYJxxj">3 Easy Steps and get your solution</div>
           <div class="search-section-WYJxxj smart-layers-pointers">
             <div class="search-box-vYzqLm">
@@ -104,6 +109,7 @@
             </div>
           </div>
         </div>
+          
         <div class="description-section-IO3Fu5">
           <div class="image-area-o6e5VS">
             <img class="doctor-image-transparent-askUgS" src="img/doctorimagetransparent@1x.png" />
@@ -142,4 +148,35 @@
       </div>
     </div>
   </body>
+<script>
+$(document).ready(function(){
+    $("#search_btn").click(function(){
+        
+        var doctor_type = $("#doctor_type").val();
+        var doctor_area = $("#doctor_area").val();
+        
+        $.post("webservice1.php", {search: doctor_type, area: doctor_area}, function(response){
+            $("#searchSection").html(response);
+        });
+        
+    });
+});    
+</script>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
